@@ -1,0 +1,45 @@
+.container{
+  width: 200;
+  height: 300;
+  display: flex;
+  background-color: rgb(179, 0, 255);
+}
+.title{
+  background-color: rgb(175, 110, 31);
+  width: 30;
+  height: 40;
+  text-align: center;
+}
+.header{
+  text-align: center;
+  background-color: rgb(255, 162, 0);
+  width: 500;
+  height: 700;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px;
+}
+
+
+.viaje{
+  grid-column: 1;
+  grid-row: 1;
+  width: 500;
+  height: 700;
+  Border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(103, 15, 15);
+  padding: 8px;
+}
+.viaje1{
+  grid-column: 2;
+  grid-row: 1;
+  width: 500;
+  height: 700;
+  Border: 2px solid black;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+}
